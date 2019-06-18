@@ -1,280 +1,124 @@
 export default {
   items: [
     {
-      name: 'Dashboard',
-      url: '/dashboard',
-      icon: 'icon-speedometer',
-      badge: {
-        variant: 'info',
-        text: 'NEW',
-      },
-    },
-    {
       title: true,
-      name: 'Theme',
-      wrapper: {            // optional wrapper object
-        element: '',        // required valid HTML5 element tag
-        attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
-      },
-      class: ''             // optional class names space delimited list for title item ex: "text-center"
+      name: "ESPRIT ADMINSPACE"
     },
     {
-      name: 'Colors',
-      url: '/theme/colors',
-      icon: 'icon-drop',
+      name: "Dashboard",
+      url: "/dashboard",
+      icon: "icon-speedometer"
     },
     {
-      name: 'Typography',
-      url: '/theme/typography',
-      icon: 'icon-pencil',
-    },
-    {
-      title: true,
-      name: 'Components',
-      wrapper: {
-        element: '',
-        attributes: {},
-      },
-    },
-    {
-      name: 'Base',
-      url: '/base',
-      icon: 'icon-puzzle',
+      name: "Page Acceuil",
       children: [
         {
-          name: 'Breadcrumbs',
-          url: '/base/breadcrumbs',
-          icon: 'icon-puzzle',
+          name: "Carrousel",
+          icon: "none",
+          children: [
+            {
+              name: "Ajouter",
+              url: "/ajouter",
+              icon: "none"
+            },
+            {
+              name: "Afficher",
+              url: "/afficher",
+              icon: "none"
+            },
+          ]
         },
-        {
-          name: 'Cards',
-          url: '/base/cards',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Carousels',
-          url: '/base/carousels',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Collapses',
-          url: '/base/collapses',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Dropdowns',
-          url: '/base/dropdowns',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Forms',
-          url: '/base/forms',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Jumbotrons',
-          url: '/base/jumbotrons',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'List groups',
-          url: '/base/list-groups',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Navs',
-          url: '/base/navs',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Paginations',
-          url: '/base/paginations',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Popovers',
-          url: '/base/popovers',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Progress Bar',
-          url: '/base/progress-bar',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Switches',
-          url: '/base/switches',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Tables',
-          url: '/base/tables',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Tabs',
-          url: '/base/tabs',
-          icon: 'icon-puzzle',
-        },
-        {
-          name: 'Tooltips',
-          url: '/base/tooltips',
-          icon: 'icon-puzzle',
-        },
-      ],
+      ]
     },
     {
-      name: 'Buttons',
-      url: '/buttons',
-      icon: 'icon-cursor',
+      name: "Formations",
+      icon: "none",
       children: [
         {
-          name: 'Buttons',
-          url: '/buttons/buttons',
-          icon: 'icon-cursor',
+          name: "Ajouter",
+          url: "/ajouter",
+          icon: "none"
         },
         {
-          name: 'Button dropdowns',
-          url: '/buttons/button-dropdowns',
-          icon: 'icon-cursor',
+          name: "Afficher",
+          url: "/afficher",
+          icon: "none"
         },
-        {
-          name: 'Button groups',
-          url: '/buttons/button-groups',
-          icon: 'icon-cursor',
-        },
-        {
-          name: 'Brand Buttons',
-          url: '/buttons/brand-buttons',
-          icon: 'icon-cursor',
-        },
-      ],
+      ]
     },
     {
-      name: 'Charts',
-      url: '/charts',
-      icon: 'icon-pie-chart',
-    },
-    {
-      name: 'Icons',
-      url: '/icons',
-      icon: 'icon-star',
+      name: "Evénements",
+      icon: "none",
       children: [
         {
-          name: 'CoreUI Icons',
-          url: '/icons/coreui-icons',
-          icon: 'icon-star',
-          badge: {
-            variant: 'info',
-            text: 'NEW',
-          },
+          name: "Ajouter",
+          url: "/ajouter",
+          icon: "none"
         },
         {
-          name: 'Flags',
-          url: '/icons/flags',
-          icon: 'icon-star',
+          name: "Afficher",
+          url: "/afficher",
+          icon: "none"
         },
-        {
-          name: 'Font Awesome',
-          url: '/icons/font-awesome',
-          icon: 'icon-star',
-          badge: {
-            variant: 'secondary',
-            text: '4.7',
-          },
-        },
-        {
-          name: 'Simple Line Icons',
-          url: '/icons/simple-line-icons',
-          icon: 'icon-star',
-        },
-      ],
+      ]
     },
     {
-      name: 'Notifications',
-      url: '/notifications',
-      icon: 'icon-bell',
+      name: "Actualités",
+      icon: "none",
       children: [
         {
-          name: 'Alerts',
-          url: '/notifications/alerts',
-          icon: 'icon-bell',
+          name: "Ajouter",
+          url: "/ajouter",
+          icon: "none"
         },
         {
-          name: 'Badges',
-          url: '/notifications/badges',
-          icon: 'icon-bell',
+          name: "Afficher",
+          url: "/afficher",
+          icon: "none"
         },
-        {
-          name: 'Modals',
-          url: '/notifications/modals',
-          icon: 'icon-bell',
-        },
-      ],
+      ]
     },
     {
-      name: 'Widgets',
-      url: '/widgets',
-      icon: 'icon-calculator',
-      badge: {
-        variant: 'info',
-        text: 'NEW',
-      },
+      name: "Calendrier",
     },
     {
-      divider: true,
+      name: "SERVICES DE L’ÉCOLE",
     },
     {
-      title: true,
-      name: 'Extras',
-    },
-    {
-      name: 'Pages',
-      url: '/pages',
-      icon: 'icon-star',
+      name: "PRESSE",
+      icon: "none",
       children: [
         {
-          name: 'Login',
-          url: '/login',
-          icon: 'icon-star',
+          name: "Rapports d'Activités",
+          url: "/ajouter",
+          icon: "none"
         },
         {
-          name: 'Register',
-          url: '/register',
-          icon: 'icon-star',
+          name: "Articles",
+          url: "/afficher",
+          icon: "none"
         },
         {
-          name: 'Error 404',
-          url: '/404',
-          icon: 'icon-star',
+          name: "Brochures",
+          url: "/afficher",
+          icon: "none"
         },
         {
-          name: 'Error 500',
-          url: '/500',
-          icon: 'icon-star',
+          name: "COMMUNIQUE DE PRESSE",
+          url: "/afficher",
+          icon: "none"
         },
-      ],
+        
+      ]
     },
     {
-      name: 'Disabled',
-      url: '/dashboard',
-      icon: 'icon-ban',
-      attributes: { disabled: true },
+      name: "GRILLE TARIFAIRE",
     },
     {
-      name: 'Download CoreUI',
-      url: 'https://coreui.io/react/',
-      icon: 'icon-cloud-download',
-      class: 'mt-auto',
-      variant: 'success',
-      attributes: { target: '_blank', rel: "noopener" },
+      name: "Foyer",
     },
     {
-      name: 'Try CoreUI PRO',
-      url: 'https://coreui.io/pro/react/',
-      icon: 'icon-layers',
-      variant: 'danger',
-      attributes: { target: '_blank', rel: "noopener" },
+      name: "Vie edtudiante",
     },
-  ],
+  ]
 };
