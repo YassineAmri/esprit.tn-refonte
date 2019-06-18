@@ -1,6 +1,6 @@
-# Contributing to CoreUI Free Bootstrap Admin Template
+# Contributing to CoreUI Free React Admin Template
 
-Looking to contribute something to CoreUI Free Bootstrap Admin Template? **Here's how you can help.**
+Looking to contribute something to CoreUI Free React Admin Template? **Here's how you can help.**
 
 Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
 
@@ -8,7 +8,7 @@ Following these guidelines helps to communicate that you respect the time of the
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/coreui/coreui-free-bootstrap-admin-template/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
+The [issue tracker](https://github.com/coreui/coreui-free-react-admin-template/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
 
 * Please **do not** use the issue tracker for personal support requests.
 
@@ -16,7 +16,7 @@ The [issue tracker](https://github.com/coreui/coreui-free-bootstrap-admin-templa
   Use [GitHub's "reactions" feature](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments)
   instead.
 
-* Please **do not** open issues or pull requests regarding the code in  [`@coreui/coreui`](https://github.com/coreui/coreui) (open them in their respective repositories).
+* Please **do not** open issues or pull requests regarding the code in  [`@coreui/coreui`](https://github.com/coreui/coreui-react) (open them in their respective repositories).
 
 ## Bug reports
 
@@ -86,11 +86,11 @@ included in the project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/free-bootstrap-admin-template.git
+   git clone https://github.com/<your-username>/free-react-admin-template.git
    # Navigate to the newly cloned directory
-   cd free-bootstrap-admin-template
+   cd free-react-admin-template
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/coreui/coreui-free-bootstrap-admin-template.git
+   git remote add upstream https://github.com/coreui/coreui-free-react-admin-template.git
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
